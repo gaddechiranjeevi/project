@@ -1,13 +1,59 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.circle{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.button{
+  cursor: pointer;
+  color: #000000;
+  border-radius: 4px;
+  margin: 20px auto;
+  border: none;
+  padding: 10px 20px;
+}
+
+.first{
+  width: 98.79vw;
+  height: 100vh;
+  text-align: center;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.componentA{
+  width: 98.79vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+.third{
+  width: 98.79vw;
+  height: 100vh;
+  background-color: rgb(200, 230, 209);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  border: none;
+  width: auto;
+  height: auto;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  cursor: pointer;
 }
